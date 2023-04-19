@@ -1,0 +1,623 @@
+.bg-img {
+    
+    background-image: url("/images/banner-bg.png");
+  
+    min-height: 100vh;
+   background-size: cover;  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width:auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    border-radius: 25px;
+    margin-left: 320px;
+    margin-right: ;
+    padding: 10px;
+
+  }
+  
+  /*inside nav*/
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+/*   
+  .container{
+    text-align:center;
+    color: white;
+    font-size: 25px;
+    
+  } */
+  .head{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+    color: white;
+  }
+  .para{
+    font-size:20px;
+    text-align: center;
+    margin-left: 80px;
+
+  }
+
+  .button{
+
+    color: white;
+    border-radius: 25px;
+    background-color: red; 
+  }
+  
+  .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ .flex-container{
+    display: flex;
+    background-color:beige;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    
+    
+    
+ }
+ .flex-container > div{
+    background-color:white;
+    margin: 10px;
+    padding: 70px;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 100px;
+    
+ }
+
+ .th1{
+  text-align: center;
+
+ }
+ .th2{
+  text-align: center;
+
+ }
+
+ .th3{
+  text-align: center;
+
+ }
+  
+ 
+ .left{
+    float: left;
+    padding: 100px; 
+ }
+ .left-text{
+    text-align: right;
+    padding: 100px;
+    font-size: 30px;
+ }
+ .right{
+    float: right;
+    padding: 80px;
+ }
+ .right-text{
+    text-align: left;
+    padding:100px;
+    font-size: 30px;
+ }
+ .middle-text{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+    color: white;
+
+ }
+ 
+ .textc{
+  background-image:url(/images/work-process-bg.png);
+  height: 575px;
+  
+  
+ }
+ .container-box{
+  display: flex;
+  padding: 70px;
+  margin-left: 250px;
+
+
+ }
+
+ 
+ .middle-text{
+  text-align: center;
+  padding-top: 40px;
+
+ }
+ .middle-para{
+  text-align: center;
+  padding: 5px;
+  color:white;
+  font-size: 24px;
+ }
+ .box1{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh1{
+  text-align: center;
+ }
+ .bp1{
+  text-align: center;
+ }
+
+ .box2{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh2{
+  text-align: center;
+ }
+ .bp2{
+  text-align: center;
+ }
+
+ .box3{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh3{
+  text-align: center;
+ }
+ .bp3{
+  text-align: center;
+ }
+
+ .box4{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh4{
+  text-align: center;
+ }
+ .bp4{
+  text-align: center;
+ }
+
+ .box5{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh5{
+  text-align: center;
+ }
+ .bp5{
+  text-align: center;
+ }
+
+ .box6{
+  width: 150px;
+  height:150px;
+  background-color: white;
+  border-radius: 25px;margin-left: 10px;
+ }
+ .bh6{
+  text-align: center;
+ }
+ .bp6
+ {
+  text-align: center;
+ }
+ 
+
+.wh{
+  text-align: center;
+}
+.pw{
+  text-align: center;
+  font-size: 20px;
+}
+.flex-container1 {
+  display: flex;
+  color: black;
+   padding-left: 325px;
+
+}
+.mh1{
+  text-align:centre;
+}
+.box7{
+    
+  width: 275px;
+  height:275px;
+  background-color:bisque;
+  border-radius: 25px;margin-left: 10px;
+}
+.para1{
+  text-align: center;
+  padding: 0px;
+}
+.down{
+  text-align: center;
+}
+
+.box8{
+      
+  width: 275px;
+  height:275px;
+  background-color:bisque;
+  border-radius: 25px;margin-left: 10px;
+}
+.para2{
+  text-align: center;
+  padding: 0px;
+}
+.down{
+  text-align: center;
+}
+
+.box9{
+        
+  width: 275px;
+  height:275px;
+  background-color:bisque;
+  border-radius: 25px;margin-left: 10px;
+}
+.para3{
+  text-align: center;
+  padding: 0px;
+}
+.down{
+  text-align: center;
+}
+.img1{
+  padding: 30px ;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.flex-container3{
+  display: flex;
+  padding: 70px;
+  background-color: burlywood;
+  justify-content:center;
+  height: 500px;
+}
+
+
+.mp{
+  text-align: center;
+  font-size: 16px;
+}
+.stabox{
+  width: 200px;
+  height:375px;
+  background-color:white;
+  border-radius: 25px;margin-left: 10px;
+  margin-top: 150px;
+
+}
+.hd{
+  text-align: center;
+}
+.container4{
+  background-color: blue;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10x;
+  left: 50px;
+  margin-left: 25px;
+  color: white;
+}
+.price{
+  text-align: center;
+}
+
+.b6{
+  border-radius:25%;
+  margin-left:25px;
+  border-radius:25px;
+  color:white;
+  background-color: blue;
+  border: 0px;
+}
+
+.prebox{
+  width: 200px;
+  height:375px;
+  background-color:white;
+  border-radius: 25px;margin-left: 10px;
+  margin-top: 150px;
+  
+}
+.hd1{
+  text-align: center;
+}
+.price1{
+  text-align: center;
+}
+.container5{
+  background-color:pink;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10x;
+  left: 50px;
+  margin-left: 25px;
+  
+}
+.button7{
+  border-radius: 25%;
+  margin-left: 25px;
+  border-radius:25px;
+  color:white;
+  
+}
+
+.advbox{
+  width: 200px;
+  height: 375px;
+  background-color:white;
+  border-radius: 25px;margin-left: 10px;
+  margin-top: 150px;
+}
+.hd2{
+  text-align: center;
+}
+.price2{
+  text-align: center;
+}
+.container6{
+  background-color: blue;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10x;
+  left: 50px;
+  margin-left: 25px;
+}
+.button8{
+  border-radius: 25%;
+  margin-left: 25px;
+  border-radius:25px;
+  color:white;
+}
+.containert{
+  background-color: burlywood;
+  text-align: center;
+  height: 0px;
+  
+}
+.ph{
+  font-size: 20px;
+  margin-bottom: 75px;
+  padding-top:50px;
+  
+}
+.pp{
+  font-size: 18px;
+}
+.containerf{
+  background-image: url(/images/fun-facts-bg.png);
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+  margin-top: -5px;
+
+}
+.pt{
+  color: white;
+  margin-top: 60px;
+
+}
+
+.pt1{
+  color: white;
+  margin-top: 60px;
+
+}
+
+.pt2{
+  color:white;
+  margin-top: 60px;
+  
+}
+.pt3{
+  color:white;
+  margin-top: 60px;
+
+}
+.cirimg1{
+  margin-top:100px;
+}
+
+.cirimg2{
+  margin-top:60px;
+}
+
+.cirimg3{
+  margin-top: 100px;
+}
+
+.hb3{
+  text-align: center;
+}
+.pb{
+  text-align: center;
+}
+.containerbl{
+display: flex;
+justify-content: space-evenly;
+}
+.im1{
+  margin-left:150px;
+
+}
+.im2{
+  margin-left: 20px;
+
+}
+.im3 {
+  margin-left:20px ;
+}
+.rp1{
+  margin-left: 150px;
+}
+.containerbt{
+  display: flex;
+  justify-content: baseline;
+
+
+}
+
+.rp2{
+  margin-left: 200px;
+
+}
+
+.rp3{
+  margin-left: 220px;
+
+}
+
+.containerbp{
+  display: flex;
+justify-content: baseline;
+}
+.pr1{
+  margin-left:150px;
+  padding-top: -15px;
+}
+
+.pr2{
+  margin-left:100px;
+  padding-top: -15px;
+}
+
+.pr3{
+  margin-left: 70px;
+  padding-top: -15px;
+}
+.containerrb{
+  display: flex;
+  
+}
+.rb1{
+  margin-left: 150px;
+
+}
+
+.rb2{
+  margin-left: 320px;
+}
+
+.rb3{
+  margin-left: 340px;
+}
+
+.containertt{
+  background-color:grey;
+  height: 500px;
+}
+.ht{
+  text-align: center;
+  
+}
+.ptt{
+  text-align: center;
+}
+.kh{
+  margin-left:40px;
+  color: blanchedalmond;
+
+}
+.kp{
+  margin-left: 40px;
+  color: blanchedalmond;
+}
+.kp1{
+  margin-left: 40px;
+  color: blanchedalmond;
+  margin-top: 50px;
+}
+.bu{
+  margin-left: 600px;
+  margin-top:-370px; 
+}
+
+.me{
+  margin-left: 600px;
+  margin-top: 60px;
+}
+.send{
+  margin-left: 600px;
+  margin-top: 40px;
+  
+}
+.containerfoot{
+  background-color: blueviolet;
+  color: white;
+  margin-top: -5px;
+  height: 150px;
+}
+.pfoot{
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+.line{
+ width: 50%;
+}
+
+.social{
+  margin-left:700px;
+}
+
+
+
+
+
+
+
+
+
